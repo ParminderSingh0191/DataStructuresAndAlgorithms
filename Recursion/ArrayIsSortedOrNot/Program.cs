@@ -20,6 +20,8 @@ namespace ArrayIsSortedOrNot
 
         private static int IsArraySortedOrNot(int[] items, int n)
         {
+            // Time complexity: O(n)
+            // Space Complexity: O(n)
             if(n==1)
             {
                 return 1;
