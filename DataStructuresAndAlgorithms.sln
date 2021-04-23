@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayIsSortedOrNot", "Recursion\ArrayIsSortedOrNot\ArrayIsSortedOrNot.csproj", "{A14CE23B-9BDC-4671-A38F-372F347D52AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{F3B9C40F-AE83-4802-B6BF-EC33B00AE5AC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Recursion", "1_Recursion", "{F3B9C40F-AE83-4802-B6BF-EC33B00AE5AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
