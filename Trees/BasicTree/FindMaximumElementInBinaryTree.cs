@@ -2,6 +2,9 @@
 {
     public class FindMaximumElementInBinaryTree
     {
+        // Find maximum element in left subtree
+        // Find maximum element in right subtree
+        // Compare them with root data and select the one which is maximum
         // TimeComplexity O(n)
         // SpaceComplexity O(n)
         public int FindMaximum(Node rootNode)
