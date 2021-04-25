@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj": {}
+    "E:\\Projects\\DataStructuresAndAlgorithms\\LinkedLists\\SinglyLinkedList\\SinglyLinkedList.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj": {
+    "E:\\Projects\\DataStructuresAndAlgorithms\\LinkedLists\\SinglyLinkedList\\SinglyLinkedList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj",
-        "projectName": "ArrayIsSortedOrNot",
-        "projectPath": "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj",
+        "projectUniqueName": "E:\\Projects\\DataStructuresAndAlgorithms\\LinkedLists\\SinglyLinkedList\\SinglyLinkedList.csproj",
+        "projectName": "SinglyLinkedList",
+        "projectPath": "E:\\Projects\\DataStructuresAndAlgorithms\\LinkedLists\\SinglyLinkedList\\SinglyLinkedList.csproj",
         "packagesPath": "C:\\Users\\Parminder\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\obj\\",
+        "outputPath": "E:\\Projects\\DataStructuresAndAlgorithms\\LinkedLists\\SinglyLinkedList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

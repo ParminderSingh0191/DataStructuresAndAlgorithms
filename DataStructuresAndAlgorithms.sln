@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_LinkedLists", "2_LinkedLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedList", "LinkedLists\SinglyLinkedList\SinglyLinkedList.csproj", "{7FFC5902-5F3D-40F0-845B-E7B42B6AEB4E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees", "Trees", "{F5997753-9286-40DA-AA1D-CD687BAA1AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTree", "Trees\BasicTree\BasicTree.csproj", "{6D00206F-1CE8-4A47-9CB6-58F19C13C9B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{7FFC5902-5F3D-40F0-845B-E7B42B6AEB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFC5902-5F3D-40F0-845B-E7B42B6AEB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFC5902-5F3D-40F0-845B-E7B42B6AEB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D00206F-1CE8-4A47-9CB6-58F19C13C9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D00206F-1CE8-4A47-9CB6-58F19C13C9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D00206F-1CE8-4A47-9CB6-58F19C13C9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D00206F-1CE8-4A47-9CB6-58F19C13C9B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A14CE23B-9BDC-4671-A38F-372F347D52AB} = {F3B9C40F-AE83-4802-B6BF-EC33B00AE5AC}
 		{7FFC5902-5F3D-40F0-845B-E7B42B6AEB4E} = {55311D93-0B2D-4D63-8E85-8411B636913A}
+		{6D00206F-1CE8-4A47-9CB6-58F19C13C9B1} = {F5997753-9286-40DA-AA1D-CD687BAA1AFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68D6BB8F-4557-4D7E-966E-DBBD0345CE04}

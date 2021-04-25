@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj": {}
+    "E:\\Projects\\DataStructuresAndAlgorithms\\Trees\\BasicTree\\BasicTree.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj": {
+    "E:\\Projects\\DataStructuresAndAlgorithms\\Trees\\BasicTree\\BasicTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj",
-        "projectName": "ArrayIsSortedOrNot",
-        "projectPath": "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\ArrayIsSortedOrNot.csproj",
+        "projectUniqueName": "E:\\Projects\\DataStructuresAndAlgorithms\\Trees\\BasicTree\\BasicTree.csproj",
+        "projectName": "BasicTree",
+        "projectPath": "E:\\Projects\\DataStructuresAndAlgorithms\\Trees\\BasicTree\\BasicTree.csproj",
         "packagesPath": "C:\\Users\\Parminder\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\DataStructuresAndAlgorithms\\Recursion\\ArrayIsSortedOrNot\\obj\\",
+        "outputPath": "E:\\Projects\\DataStructuresAndAlgorithms\\Trees\\BasicTree\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
