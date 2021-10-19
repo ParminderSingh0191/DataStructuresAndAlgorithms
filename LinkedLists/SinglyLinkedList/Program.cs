@@ -6,58 +6,112 @@ namespace SinglyLinkedList
     {
         static void Main(string[] args)
         {
-            var node1 = new Node(100);
-            var node2 = node1.InsertNext(200);
-            var node3 = node2.InsertNext(300);
-            var node4 = node3.InsertNext(400);
-            var node5 = node4.InsertNext(500);
+            var linkedList = new LinkedList();
 
-            node1.Traverse(null);
+            linkedList.AddNodeToTheEnd(1);
+            linkedList.AddNodeToTheEnd(2);
+            linkedList.AddNodeToTheEnd(3);
+            linkedList.AddNodeToTheEnd(4);
+            linkedList.AddNodeToTheEnd(5);
+
+            linkedList.Print();
+            linkedList.DeleteNodeWithValue(2);
+
+            Console.ReadKey();
         }
 
     }
 
     public class Node
     {
-        private int data;
-        private Node Next;
+        public int Data { get; private set; }
+
+        public Node Next { get; set; }
 
         public Node(int data)
         {
-            this.data = data;
-            Next = null;
+            Data = data;
+        }
+    }
+
+    public class LinkedList
+    {
+        private Node head;
+
+        public void AddNodeToTheEnd(int data)
+        {
+            if (head == null)
+            {
+                head = new Node(data);
+                return;
+            }
+
+            Node current = head;
+            while (current.Next != null)
+            {
+                current = current.Next;
+            }
+
+            current.Next = new Node(data);
         }
 
-        public Node InsertNext(int value)
+        public void AddNodeToTheBeginning(int data)
         {
-            var node = new Node(value);
-
-            if(Next == null)
+            if (head == null)
             {
-                node.Next = null;
-                Next = node;
-            }
-            else
-            {
-                var temp = Next;
-                node.Next = temp;
-                Next = node;
+                head = new Node(data);
+                return;
             }
 
-            return node;
+            var newHead = new Node(data);
+            newHead.Next = head;
+            head = newHead;
         }
 
-        public void Traverse(Node node)
+        public void DeleteNodeWithValue(int data)
         {
-            if(node == null)
+            if (head == null)
             {
-                node = this;
+                return;
             }
 
-            while(node != null)
+            if (head.Data == data)
             {
-                Console.WriteLine(node.data);
-                node = node.Next;
+                head = head.Next;
+                return;
+            }
+
+            Node current = head;
+
+            while (current.Next != null)
+            {
+                if (current.Next.Data == data)
+                {
+                    current.Next = current.Next.Next;
+                    return;
+                }
+
+                current = current.Next;
+            }
+        }
+
+        public void Print()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("There is nothing to print because head not is empty.");
+            }
+
+            Node current = head;
+            while (current.Next != null)
+            {
+                Console.Write($"{current.Data} -> ");
+                current = current.Next;
+            }
+
+            if (current.Next == null)
+            {
+                Console.Write(current.Data);
             }
         }
     }
